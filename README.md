@@ -1,5 +1,5 @@
 # Functional-datasets-with-derivatives
-This repository contains several benchmark functional datasets with class labels along with their first and second derivative datasets calculated via cubic spline data interpolation technique in MATLAB, since underlying function is usually unknown. They can be used for the purpose of classification of functional data. Both binary and multi-class, high and low dimensional, and small and large-scale datasets are present. Data descriptions are present in readme.md file.
+This repository contains several benchmark functional datasets with class labels along with their first and second derivative datasets calculated via cubic spline data interpolation technique in MATLAB, since underlying function is usually unknown. They can be used for the purpose of classification of functional data. Several types of datasets are included, binary and multi-class, high and low dimensional, balanced and imbalanced, and small and large-scale. There are no missing values. Data descriptions are present in readme.md file.
 
 ## Files are arranged as follows :
 
@@ -69,19 +69,23 @@ This repository contains several benchmark functional datasets with class labels
 * Size: 7164
 * Dimension: 152
 * Number of classses: 2
-* Label +1: 
-* Label -1: 
+* Label +1: 6402
+* Label -1: 762
 
 ### 8. PHONEME
 #### Phonemes data set is related to a speech recognition problem, namely the phoneme classification problem. The data correspond to logperiodograms constructed from recordings available at different equispaced frequencies for the five phonemes: “sh” as in “she”, “dcl” as in “dark”, “iy” as in “she”, “aa” as in “dark”, and “ao” as in “water”. The aim is to predict the phoneme class for a new log-periodogram.
-* Size: 
-* Dimension: 
+* Size: 2000
+* Dimension: 150
 * Number of classses: 5
 * Size of each class is the same i.e. 400
 
 ### 9. YEAST_CELL_CYCLE
 #### The yeast cell cycle data set represent the fluctuation of expression levels of n genes over 17 time points, corresponding to two cell cycles. 
-* Size: 
-* Dimension: 
+* Size: 384
+* Dimension: 17
 * Number of classses: 5
-* 
+* Label 1: 67
+* Label 2: 135
+* Label 3: 75
+* Label 4: 52
+* Label 5: 55
